@@ -9,12 +9,13 @@ package exerciciosuri;
 public class Uri_1097 {
 
     public static void main(String[] args) {
-        int i, j;
+        int i, k = 5,j;
         for (i = 1; i <= 9; i += 2) {
-            for (j = 7; j >= 5; j--) {
+            for (j = k+2; j >= 5; j--) {
                 System.out.println("I=" + i + " " + "J=" + j);
 
             }
+            k += 2;
         }
     }
 }
